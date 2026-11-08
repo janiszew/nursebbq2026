@@ -14,7 +14,7 @@ st.write("WHERE: North Hagley Park, south of Victoria Lake between the Armagh pa
 
 st.image("bbq1.png")
 
-st.write("WHEN: Saturday 21st November, noon till we're done")
+st.write("WHEN: Saturday 28th November (NOT THE 21st!), noon till we're done")
 st.write("WHAT: A bbq, meat and veg options, gluten free stuff as well")
 st.write("WHO: You! Your family! Your friends!")
 
@@ -29,7 +29,7 @@ with st.form("email"):
 
   subject = "rsvp from " + receiver_name
 
-  attendance = st.radio("Are you coming on 21st November, noon until they throw us out, to North Hagley Park?",
+  attendance = st.radio("Are you coming on 28th November (NOT THE 21st!), noon until they throw us out, to North Hagley Park?",
                         ["yes",
                          "no"],
                         format_func=format_yn)
